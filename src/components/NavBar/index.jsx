@@ -1,4 +1,5 @@
 import React from 'react'
+import estilos from './navBar.css'
 
 export const NavBar = () => {
     return (
@@ -9,13 +10,13 @@ export const NavBar = () => {
                 </div>
                 <ul className="nav__list">
                     <li>
-                        <a href="#" className="nav__link">Categoria 1</a>
+                        <a href="#" className="nav__link">Home</a>
                     </li>
                     <li>
-                        <a href="#" className="nav__link">Categoria 2</a>
+                        <a href="#" className="nav__link">Products</a>
                     </li>
                     <li>
-                        <a href="#" className="nav__link">Categoria 3</a>
+                        <a href="#" className="nav__link">About Us</a>
                     </li>
                 </ul>
             </nav>
