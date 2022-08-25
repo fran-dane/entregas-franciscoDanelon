@@ -1,12 +1,13 @@
 import React from 'react'
 import estilos from './navBar.css'
+import CartWidget from '../CartWidget/CartWidget';
 
 export const NavBar = () => {
     return (
         <div className='container'>
             <nav className='nav'>
                 <div className="nav__brand">
-                    <a href="#" className="nav__link">Rosean</a>
+                    <a href="#" id='title__rosean' className="nav__link">Rosean</a>
                 </div>
                 <ul className="nav__list">
                     <li>
@@ -16,7 +17,9 @@ export const NavBar = () => {
                         <a href="#" className="nav__link">Products</a>
                     </li>
                     <li>
-                        <a href="#" className="nav__link">About Us</a>
+                        <a href="#" id='carrito' className="nav__link">
+                        <CartWidget />
+                        </a>
                     </li>
                 </ul>
             </nav>
