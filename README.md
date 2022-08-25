@@ -1,5 +1,7 @@
 # Entregas React | Francisco Danelon
 
+Voy a usar siempre el mismo repositorio e ir actualizandolo cada vez que tenga una entrega por hacer.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
