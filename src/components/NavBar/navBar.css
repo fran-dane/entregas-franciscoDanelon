@@ -5,7 +5,7 @@
     }
 
     body {
-        background-color: #a191ce;
+        background-color: #000;
     }
 
     #title__rosean {
@@ -16,7 +16,7 @@
         text-align: center;
         font-size: 32px;
         font-weight: bold;
-        background-color: #6b5b95;
+        background-color: #950101;
     }
 
     .nav__brand a {
@@ -33,7 +33,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #6b5b95;
+    background-color: #950101;
     }
 
     li {
@@ -49,6 +49,6 @@
     } 
 
     li a:hover {
-    background-color: #5b4e7e;
+    background-color: #FF0000;
     text-decoration: underline;
     }

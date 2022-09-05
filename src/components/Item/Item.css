@@ -1,0 +1,25 @@
+.producto {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.producto p {
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: none;
+    transition: all 1s;
+    text-align: center;
+}
+
+.producto p:hover {
+    transition: all 1s;
+    color: #950101;
+}
