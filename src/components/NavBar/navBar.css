@@ -9,7 +9,11 @@
     }
 
     #title__rosean {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
     }
 
     .nav__brand {
@@ -27,6 +31,7 @@
     .nav__link {
         font-size: 16px;
     }
+
     
     ul {
     list-style-type: none;
@@ -49,6 +54,9 @@
     } 
 
     li a:hover {
-    background-color: #FF0000;
     text-decoration: underline;
+    }
+
+    #carrito:hover {
+        transform: translateY(-2px);
     }
