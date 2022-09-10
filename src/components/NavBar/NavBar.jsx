@@ -5,10 +5,10 @@ import CartWidget from '../CartWidget/CartWidget';
 export const NavBar = () => {
     return (
         <div className='container'>
+            <div className='announcement'>
+                <h6>Free shipping on domestic orders over $150</h6>
+            </div>
             <nav className='nav'>
-                <div className="nav__brand">
-                    <a href="#" id='title__rosean' className="nav__link">EUPHORIA</a>
-                </div>
                 <ul className="nav__list">
                     <li>
                         <a href="#" className="nav__link">Home</a>
