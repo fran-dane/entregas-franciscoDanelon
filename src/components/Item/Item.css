@@ -1,17 +1,18 @@
-.producto {
+.product {
     display: flex;
-    width: 300px;
+    width: 600px;
     justify-content: center;
     align-items: center;
 }
 
-.producto img {
+.product img {
     width: 50%;
     height: 50%;
     object-fit: cover;
+    margin-left: 12rem;
 }
 
-.producto p {
+.product p {
     color: #fff;
     text-decoration: underline;
     text-shadow: none;
@@ -19,7 +20,8 @@
     text-align: center;
 }
 
-.producto p:hover {
+.product p:hover {
     transition: all 1s;
     color: #950101;
 }
+
