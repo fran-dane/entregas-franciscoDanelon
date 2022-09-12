@@ -1,4 +1,13 @@
 .title__catalog {
     text-align: center;
-    text-decoration: underline;
+    color: red;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }

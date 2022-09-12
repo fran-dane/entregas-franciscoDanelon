@@ -9,11 +9,22 @@ h1,h2,h3,h4 {
 
 .price {
     color: #fff;
+    font-size: 22px;
 }
 
 .product__detail {
     color: #fff;
     margin-bottom: 50px;
+}
+
+.product__features {
+    margin-top: 40px;
+    color: #d3d3d394;
+    font-size: 18px;
+}
+
+.product__features_container {
+    margin-top: 10rem;
 }
 
 .container {
