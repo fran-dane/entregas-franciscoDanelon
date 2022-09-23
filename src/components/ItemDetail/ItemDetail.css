@@ -9,7 +9,7 @@ h1,h2,h3,h4 {
 
 .price {
     color: #fff;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .product__detail {
@@ -83,7 +83,7 @@ h1,h2,h3,h4 {
     background-color: #1d1b1b;
 } */
 
-.checkOut {
+/* .checkOut {
     display: flex;
     margin-top: 50px;
     border: 1px solid #fff;
@@ -98,5 +98,47 @@ h1,h2,h3,h4 {
 .checkOut:hover {
     transition: all .6s;
     background-color: #f3e2e257;
+} */
+
+/* CSS */
+.checkOut {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+    margin-top: 20px
 }
 
+.checkOut:disabled {
+    pointer-events: none;
+}
+
+.checkOut:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.checkOut:active {
+    box-shadow: none;
+    transform: translateY(0);
+}

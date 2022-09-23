@@ -22,7 +22,7 @@ export const ItemDetail = ({data}) => {
         <div className="content">
             <h1>{data.title}</h1>
             <p className='product__detail'>{data.detail}</p>
-            <span className='price'>{data.price}</span>
+            <span className='price'>${data.price}</span>
             {
                 goToCart
                 ? <Link to='/cart' className='checkOut'>Check Out</Link>
