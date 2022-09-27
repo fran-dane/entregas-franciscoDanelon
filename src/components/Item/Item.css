@@ -1,8 +1,8 @@
 .product {
     display: flex;
     width: 600px;
-    justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .product img {
@@ -12,12 +12,16 @@
     margin-left: 12rem;
 }
 
+.product img:hover {
+    transform: scale(1.1);
+}
+
 .product p {
-    color: #fff;
-    text-decoration: underline;
-    text-shadow: none;
+    width: 100%;
+    white-space: nowrap;
     transition: all 1s;
-    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 .product p:hover {

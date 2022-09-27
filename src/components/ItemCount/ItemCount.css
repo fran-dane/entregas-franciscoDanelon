@@ -3,16 +3,19 @@
     margin: auto;
     padding: 1rem;
     text-align: center;
-    border: 1px solid #fff;
+    border: 1px solid grey;
     color: #fff;
     margin-left: 0;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .cantidad {
     color: #fff;
     margin-left: 5px;
     margin-right: 5px;
+    padding: 20px;
+    font-size: 20px;
 }
 
 .agregarCarrito {
@@ -20,15 +23,18 @@
     border: none;
     background-color: #000;
     color: #fff;
+    font-size: 18px;
 }
 
 .agregarCarrito:hover {
     text-decoration: underline;
+    color: #fff;
 }
 
 .btnAmount {
     background-color: #fff;
     border: none;
+    border-radius: 50px;
     font-size: 20px;
     width: 2rem;
 }
