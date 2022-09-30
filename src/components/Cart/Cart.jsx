@@ -3,9 +3,39 @@ import './Cart.css';
 import { useCartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
 import ItemCart from '../ItemCart/ItemCart';
+import { addDoc, collection, getFirestore } from 'firebase/firestore';
+import Swal from 'sweetalert2'
+
 
 const Cart = () => {
     const {cart, totalPrice} = useCartContext();
+
+
+    const order = {
+        buyer: {
+            name: 'Francisco',
+            email: 'fran@gmail.com',
+            phone: '+1 202-918-2132',
+            addres: 'Ocean Drive'
+        },
+        items: cart.map(product => ({ id: product.id, title: product.title, price: product.price, quantity: product.quantity })),
+        total: totalPrice(),
+    }
+
+    const handleClick = () => {
+        const db = getFirestore();
+        const ordersCollection = collection(db, 'orders');
+        addDoc(ordersCollection, order)
+        .then(({ id }) => console.log(id))
+
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Your order has been completed',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    }
 
     if (cart.length ===0) {
         return (
@@ -26,6 +56,7 @@ const Cart = () => {
         <p className='totalPrice'>
             Total: ${totalPrice()}
         </p>
+        <button className='check-out' onClick={handleClick}>Check Out</button>
         </>
     )
 }
