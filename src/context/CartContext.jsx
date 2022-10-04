@@ -34,6 +34,7 @@ const CartProvider = ({children}) => {
 
     const removeProduct = (id) => {
         return setCart(cart.filter(product => product.id !== id));
+        
     }
 
 

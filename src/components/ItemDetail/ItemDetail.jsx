@@ -34,9 +34,9 @@ export const ItemDetail = ({data}) => {
                 <button className='btn__buy'>{data.btn2}</button>
             </div> */}
             <div className='product__features_container'>
-            <p className='product__features'>{data.description1}</p>
-            <p className='product__features'>{data.description2}</p>
-            <p className='product__features'>{data.description3}</p>
+            <p className='product__features'>Maxed Out Formula</p>
+            <p className='product__features'>Naturally Flavored</p>
+            <p className='product__features'>Contains Sucralose</p>
             </div>
         </div>
     </div>

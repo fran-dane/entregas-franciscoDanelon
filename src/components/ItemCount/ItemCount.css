@@ -3,11 +3,10 @@
     margin: auto;
     padding: 1rem;
     text-align: center;
-    border: 1px solid grey;
+    border: 1px solid #fff;
     color: #fff;
     margin-left: 0;
     margin-top: 50px;
-    border-radius: 50px;
 }
 
 .cantidad {
@@ -32,13 +31,13 @@
 }
 
 .btnAmount {
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
     border: none;
-    border-radius: 50px;
     font-size: 20px;
     width: 2rem;
 }
 
 .btnAmount:hover {
-    background-color: #eee;
+    background-color: #7a7a7a57;
 }
