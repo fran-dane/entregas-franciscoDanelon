@@ -25,15 +25,25 @@ const Cart = () => {
     const handleClick = () => {
         const db = getFirestore();
         const ordersCollection = collection(db, 'orders');
-        addDoc(ordersCollection, order)
-        .then(({ id }) => console.log(id))
-
+        
         Swal.fire({
             position: 'center',
             icon: 'success',
             title: 'Your order has been completed',
             showConfirmButton: false,
-            timer: 1500
+            timer: 4500
+        })
+
+        addDoc(ordersCollection, order)
+        .then(({ id }) => {
+            Swal.fire({
+                position: 'center',
+                icon: 'info',
+                title: 'Your Order Number',
+                text: `${id}`,
+                showConfirmButton: false,
+                timer: 5500
+              })
         })
     }
 
