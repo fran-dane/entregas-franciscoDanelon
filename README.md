@@ -16,7 +16,7 @@
 
 <h4 align="center">Funcionamiento del proyecto: </h4>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![reactProjectProof](https://user-images.githubusercontent.com/102756432/194126807-11b49dc7-2cbb-4d1d-8470-9e1ff3a049b5.gif)
 
 ## Key Features
 
