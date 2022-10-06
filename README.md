@@ -20,20 +20,5 @@
 
 ## Key Features
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
 * [Firebase](https://firebase.google.com/?gclid=CjwKCAjws--ZBhAXEiwAv-RNL6Uu5Xvf91_rPYWKJOlUoTuBw3jEDTaQt9DWYMCsK04Px7O502Ax-BoCCKUQAvD_BwE&gclsrc=aw.ds)
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* [SweetAlert2](https://sweetalert2.github.io/)
