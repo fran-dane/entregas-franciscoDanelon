@@ -14,12 +14,8 @@
          alt="Gitter">
   </a>
 
-<h4 align="center">Funcionamiento del proyecto: </h4>
+<h3 align="center">Funcionamiento del proyecto: </h3>
 
 ![muestraDelProyectoReact](https://user-images.githubusercontent.com/102756432/195105741-46ee4ac3-65b7-4015-9cae-84d2fed6f912.gif)
 
 
-## Características
-
-* [Firebase](https://firebase.google.com/?gclid=CjwKCAjws--ZBhAXEiwAv-RNL6Uu5Xvf91_rPYWKJOlUoTuBw3jEDTaQt9DWYMCsK04Px7O502Ax-BoCCKUQAvD_BwE&gclsrc=aw.ds)
-* [SweetAlert2](https://sweetalert2.github.io/)
