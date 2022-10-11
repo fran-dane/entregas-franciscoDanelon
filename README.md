@@ -16,7 +16,8 @@
 
 <h4 align="center">Funcionamiento del proyecto: </h4>
 
-![reactProject](https://user-images.githubusercontent.com/102756432/194126862-6612130e-330a-4896-8c27-772d71e17f1d.gif)
+![muestraDelProyectoReact](https://user-images.githubusercontent.com/102756432/195105741-46ee4ac3-65b7-4015-9cae-84d2fed6f912.gif)
+
 
 ## Características
 
