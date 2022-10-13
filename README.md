@@ -18,4 +18,26 @@
 
 ![muestraDelProyectoReact](https://user-images.githubusercontent.com/102756432/195105741-46ee4ac3-65b7-4015-9cae-84d2fed6f912.gif)
 
+## Instalarlo e Iniciarlo 🚀
+<br />
 
+> 1. Clonar repositorio
+
+```sh
+git clone https://github.com/alvarezfelipedev/ecomm-alvarez-felipe.git
+```
+<br />
+
+> 2. Instalar npm
+
+```sh
+npm i
+```
+<br />
+
+> 3. Iniciar proyecto
+
+```sh
+npm start
+```
+<br />
