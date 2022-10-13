@@ -24,7 +24,7 @@
 > 1. Clonar repositorio
 
 ```sh
-git clone https://github.com/alvarezfelipedev/ecomm-alvarez-felipe.git
+git clone https://github.com/fran-dane/entregas-franciscoDanelon
 ```
 <br />
 
