@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://euphoriapre.com/">
     <img src="https://cdn.shopify.com/s/files/1/0245/5116/1905/files/Euphoria_Pre_2.0_2f34532d-eec7-4ca9-961f-a7001373853e.png?v=1664759850"
-      width="100px"   alt="Gitter">
+      width="300px" height="200px"   alt="Gitter">
   </a>
 
 <h3 align="center">Funcionamiento del proyecto: </h3>
